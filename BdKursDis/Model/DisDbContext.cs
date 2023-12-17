@@ -11,7 +11,6 @@ namespace BdKursDis.Model
     {
         public DisDbContext() : base()
         {
-            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
